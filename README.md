@@ -86,7 +86,7 @@ The transformation process involves parsing the original location information, e
   - Parallel processing using `concurrent.futures.ProcessPoolExecutor`.
 
 - **Performance:**
-  - Execution Time: 34 seconds
+  - Execution Time: 36 seconds
 ### Example Usage
 ``` Python
 from geo_transform2 import create_geodataframe_map_reduce
@@ -118,7 +118,7 @@ print(f"Runtime of create_geodataframe_map_reduce: {runtime} seconds")
   - Utilizes Dask for parallel processing, suitable for large datasets.
 
 - **Performance:**
-  - Execution Time: 27s
+  - Execution Time: 7s
 
 ### Example Usage
 ``` Python
